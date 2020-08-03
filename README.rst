@@ -1,9 +1,11 @@
 This is a PCASpy server to integrate Medipix detectors, using Pixet Python API.
 
-1. Inside the Python Scripting window,  select menu *File* -> *Install python module*.
-   Type *pcaspy* and click Ok.
+1. Pixet 1.7.1 has Python 3.7 embedded. So download pcaspy package
+   *pcaspy-0.7.2-py3.7-linux-x86_64.egg* from https://pypi.org/project/pcaspy/#files
+   and unzip it under *PIXET/libs/python3.7/site-packages*.
 
-2. Still inside the Python Scripting window, open the *epics_server.py* file and
+2. Now start Pixet and select menu *Tool* -> *Python Scripting*.
+   Inside the Python Scripting window, open the *epics_server.py* file and
    select menu *Script* -> *Run Script*.
 
 3. Open the medm panel,::
